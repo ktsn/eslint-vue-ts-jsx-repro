@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext tsx,vue ."
+  },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "eslint-plugin-vue": "^4.7.1",
-    "typescript": "^3.2.1",
+    "eslint-plugin-vue": "^5.0.0-beta.5",
+    "typescript": "~3.1.1",
     "typescript-eslint-parser": "^21.0.1"
   }
 }
